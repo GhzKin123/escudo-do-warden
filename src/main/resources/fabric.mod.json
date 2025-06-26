@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "wardenshield",
+  "version": "1.0.0",
+  "name": "Warden Sonic Shield",
+  "description": "Adiciona um escudo com rajada sônica como o Warden.",
+  "authors": ["SeuNome"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.seunome.wardenshield.WardenShieldMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
